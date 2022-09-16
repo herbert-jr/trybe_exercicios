@@ -1,0 +1,31 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+li {
+    background-color: aqua;
+}      
+
+.cor-de-fundo {
+    background-color: rgb(34, 17, 114);
+}
+p {
+  font-weight: 600;
+  font-size: 3em;      
+}
+body {
+  font-size: 16px;
+}
+
+.amarelo {
+  background-color: yellow;
+}
+
+.vermelho{
+  background-color: red;
+}
+
+.marrom {
+  background-color: brown;
+}

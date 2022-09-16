@@ -24,3 +24,5 @@
 
 6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto
 Link de referência para propriedades de texto em CSS
+
+#### Jogamos os comandos do 'Style" para uma pasta '.css' externa e incluimos o link para manter as propriedades.
