@@ -1,0 +1,63 @@
+ol li:nth-last-of-type(odd){
+    text-transform: uppercase;
+}
+
+ol li:nth-last-of-type(even){
+    color: green;
+}
+
+ol li{
+    background-color: yellow;
+}
+
+h1, h3{
+    color: red;
+}
+
+h1, h3 em{
+    color: red;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+ol, ul li{
+    font-size: 20px
+}
+
+ol, ul li em{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul.java li:nth-child(-n+3){
+    color: blue;
+}
+
+.rosa-bg{
+    background-color: pink;
+}
+
+ul.negrito li:hover{
+    font-weight: bold
+    ;
+}
+
+ul.negrito li:hover:nth-child(1){
+    color: orange;
+}
+
+ul.negrito li:hover:nth-child(2){
+    color: green;
+}
+
+ul.negrito li:hover:nth-child(3){
+    color: black;
+}
+
+ul.negrito li:hover:nth-child(4){
+    color: yellow;
+}
+
+ul.negrito li:hover:nth-child(5){
+    color: green;
+}
