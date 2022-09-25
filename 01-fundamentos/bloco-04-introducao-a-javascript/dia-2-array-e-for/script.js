@@ -41,16 +41,29 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // Utilizando for, descubra qual o maior valor contido no array e imprima-o;
 
-let bigger = 0;
+// let bigger = 0;
+// for(let index = 0; index < numbers.length; index++ ){
+//     if(bigger < numbers[index]){
+//         bigger = numbers[index]
+//     }
+// }
+
+// console.log(bigger)
+
+// Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+
+let odd = 0;
 for(let index = 0; index < numbers.length; index++ ){
-    if(bigger < numbers[index]){
-        bigger = numbers[index]
+    if(numbers[index]%2 !== 0){
+        odd++
     }
 }
 
-console.log(bigger)
-
-// Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+if(odd === 0){
+    console.log('nenhum valor ímpar encontrado')
+}else{
+console.log(odd)
+}
 
 // Utilizando for, descubra qual o menor valor contido no array e imprima-o;
 
